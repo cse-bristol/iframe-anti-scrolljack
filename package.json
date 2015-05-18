@@ -7,7 +7,7 @@
     "license": "MIT",
     "main": "js/index.js",
     "directories": {
-	"js": "js",
+	"js": "js"
     },
     "repository": {
 	"type": "git",
