@@ -5,7 +5,10 @@
     "keywords": ["iframe", "scroll hijack", "scolljack"],
     "url": "https://github.com/cse-bristol/iframe-anti-scrolljack",
     "license": "MIT",
-
+    "main": "js/index.js",
+    "directories": {
+	"js": "js",
+    },
     "repository": {
 	"type": "git",
 	"url": "git://github.com/cse-bristol/iframe-anti-scrolljack.git"
