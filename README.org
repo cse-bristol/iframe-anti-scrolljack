@@ -1,0 +1,9 @@
+* Iframe-Anti-Scrolljack
+This is a node module which, when run, will test if the current document is inside an iframe. 
+
+If it is, then any scroll events on the parent document will temporarily disable all pointer events for that iframe.
+
+Pointer events will be restored 500ms after the most recent scroll event.
+
+** Browser Compatibility
+Compatible with standards-compliant browsers and Internet Explorer 9+ (due to use of addEventListener).

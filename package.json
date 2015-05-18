@@ -1,0 +1,19 @@
+{
+    "name": "iframe-anti-scrolljack",
+    "version": "0.1.0",
+    "description": "Prevent an iframe from taking over scroll events when the cursor moves over them.",
+    "keywords": ["iframe", "scroll hijack", "scolljack"],
+    "url": "https://github.com/cse-bristol/iframe-anti-scrolljack",
+    "license": "MIT",
+
+    "repository": {
+	"type": "git",
+	"url": "git://github.com/cse-bristol/iframe-anti-scrolljack.git"
+    },
+    
+    "devDependencies": {
+	"browserify": "5.9.1"
+    },
+    "dependencies": {
+    }
+}
