@@ -1,16 +1,15 @@
 "use strict";
 
-/*global module, require*/
+/*global module, require, setTimeout*/
 
 var d3 = require("d3"),
     pointerEvents = "pointer-events";
 
 module.exports = function() {
-    var disable = 0;
-    
-	if (window.frameElement) {
-	    var iframe = window.frameElement;
-	    
+    if (window.frameElement && window.parent) {
+	var disable = 0,
+	    iframe = window.frameElement;
+	
 	window.parent.addEventListener("scroll", function() {
 	    if (!iframe) {
 		return;
@@ -23,7 +22,7 @@ module.exports = function() {
 	    
 	    disable++;
 	    
-	    window.setTimeout(
+	    setTimeout(
 		function() {
 		    if (disable > 0) {
 			disable--;
